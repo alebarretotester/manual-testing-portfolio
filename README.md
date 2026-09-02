@@ -52,3 +52,26 @@ This project demonstrates my practical skills in Manual QA, focusing on test sce
 | **TC-007** | Alterar quantidade do produto | Entrar no carrinho e alterar a quantidade de 1 para 2 unidades. | O preço total do carrinho duplica e atualiza automaticamente. | **Pass** |
 | **TC-008** | Remover produto do carrinho | Clicar no botão "Remover" ou no ícone do caixote do lixo. | O produto desaparece e mostra a mensagem "O seu carrinho está vazio". | **Pass** |
 | **TC-009** | Limite de stock | Tentar adicionar 99 unidades de um produto com apenas 5 em stock. | O sistema mostra o aviso: "Não é possível adicionar por falta de stock". | **Pass** |
+
+
+### 🪲 Projeto 3: Relatório de Bug (Bug Report)
+
+**ID:** BUG-001  
+**Título:** Cupão de desconto válido "DESC20" não atualiza o preço total no carrinho de compras  
+**Severidade:** Alta (Impede a conversão de vendas com desconto)  
+**Ambiente:** Google Chrome (v122.0) / macOS Sonoma  
+
+#### 📋 Passos para Reproduzir o Erro:
+1. Aceder à página do produto "Livro de QA Manual".
+2. Clicar no botão **"Adicionar ao Carrinho"**.
+3. Ir para a página do Carrinho de Compras.
+4. No campo "Cupão de Desconto", introduzir o código **"DESC20"** (Cupão válido de 20%).
+5. Clicar no botão **"Aplicar"**.
+
+#### 🎯 Resultados:
+* **Resultado Esperado:** O sistema deve validar o cupão, mostrar a mensagem "Cupão aplicado com sucesso" e subtrair 20% ao valor total.
+* **Resultado Atual (O Erro):** O sistema mostra a mensagem "Cupão aplicado com sucesso", mas o preço total do carrinho **continua exatamente o mesmo**, sem qualquer desconto aplicado.
+
+#### 📸 Anexos:
+*(Evidência visual: [Screenshot_Bug_001.png] - O preço total mantém-se em 25.00€ após aplicar o cupão)*
+

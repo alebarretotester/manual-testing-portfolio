@@ -30,3 +30,15 @@ This project demonstrates my practical skills in Manual QA, focusing on test sce
     3. Click the "Sign in" button.
 *   **Expected Result:** Inline validation errors appear alerting the user that the fields are required.
 *   **Status:** ❌ FAILED (Example Bug)
+
+
+### 📋 Projeto 2: Testes de Automação / Manuais (Login)
+
+| ID | Cenário de Teste | Passos para Executar | Resultado Esperado | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **TC-001** | Login com credenciais válidas | Introduzir e-mail e password corretos. Clicar em Entrar. | O utilizador entra na dashboard com sucesso. | **Pass** |
+| **TC-002** | Login com password errada | Introduzir e-mail correto e password errada. Clicar em Entrar. | Mensagem de erro: "Password incorreta". O login é bloqueado. | **Pass** |
+| **TC-003** | Login com campos vazios | Deixar e-mail e password em branco. Clicar em Entrar. | Mensagem de erro a pedir para preencher os campos obrigatórios. | **Pass** |
+| **TC-004** | Login com formato de e-mail inválido | Escrever "utilizador123" (sem @) e password. Clicar em Entrar. | O sistema avisa que o e-mail não é válido antes de enviar o formulário. | **Pass** |
+| **TC-005** | Recuperação de password | Clicar em "Esqueci-me da password", inserir e-mail válido. | Envio de e-mail com link de redefinição com sucesso. | **Pass** |
+

@@ -42,3 +42,13 @@ This project demonstrates my practical skills in Manual QA, focusing on test sce
 | **TC-004** | Login com formato de e-mail inválido | Escrever "utilizador123" (sem @) e password. Clicar em Entrar. | O sistema avisa que o e-mail não é válido antes de enviar o formulário. | **Pass** |
 | **TC-005** | Recuperação de password | Clicar em "Esqueci-me da password", inserir e-mail válido. | Envio de e-mail com link de redefinição com sucesso. | **Pass** |
 
+
+
+### 🛒 Projeto 3: Testes de Carrinho de Compras (E-commerce)
+
+| ID | Cenário de Teste | Passos para Executar | Resultado Esperado | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **TC-006** | Adicionar produto ao carrinho | Clicar num produto e carregar no botão "Adicionar ao Carrinho". | O produto é adicionado e o contador do carrinho muda de 0 para 1. | **Pass** |
+| **TC-007** | Alterar quantidade do produto | Entrar no carrinho e alterar a quantidade de 1 para 2 unidades. | O preço total do carrinho duplica e atualiza automaticamente. | **Pass** |
+| **TC-008** | Remover produto do carrinho | Clicar no botão "Remover" ou no ícone do caixote do lixo. | O produto desaparece e mostra a mensagem "O seu carrinho está vazio". | **Pass** |
+| **TC-009** | Limite de stock | Tentar adicionar 99 unidades de um produto com apenas 5 em stock. | O sistema mostra o aviso: "Não é possível adicionar por falta de stock". | **Pass** |

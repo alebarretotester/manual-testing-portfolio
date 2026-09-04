@@ -1,11 +1,25 @@
-# 🧪 Manual Testing Project: LinkedIn Login Page
+# 🧪 Manual Testing Portfolio: Test Cases & Bug Documentation
 
-This project demonstrates my practical skills in Manual QA, focusing on test scenario design, execution, and bug documentation.
+Welcome to my Quality Assurance repository! This portfolio showcases my practical skills as a **Manual QA Engineer**, focusing on test scenario design, test execution, comprehensive documentation, and bug reporting.
 
-## 📋 Test Cases (Casos de Teste)
+With a professional background in **Content Moderation at Accenture**, I apply a sharp eye for detail, critical thinking, and strict adherence to guidelines to ensure software quality and exceptional user experiences.
 
-### 🔑 Scenario 1: Successful Login with Valid Credentials
-*   **Pre-conditions:** User must have a registered account.
+---
+
+## 📌 Project Overview
+This repository contains end-to-end manual testing artifacts for high-traffic web applications, split into three core modules:
+1. **LinkedIn Login Page Automation & Manual Scenarios**
+2. **Standard Web Authentication Suite (Login & Security)**
+3. **E-commerce Shopping Cart & Promotion Engine (Features & Real Bug Reports)**
+
+---
+
+## 🔑 Project 1: LinkedIn Login Page Validation
+
+Demonstration of core test scenarios for user authentication on a professional networking platform.
+
+### Scenario 1: Successful Login with Valid Credentials
+*   **Pre-conditions:** User must have an active registered account.
 *   **Steps:**
     1. Navigate to the LinkedIn login page.
     2. Enter a valid email address in the "Email" field.
@@ -14,7 +28,7 @@ This project demonstrates my practical skills in Manual QA, focusing on test sce
 *   **Expected Result:** The user is successfully redirected to their LinkedIn Feed home page.
 *   **Status:** ✅ PASSED
 
-### ❌ Scenario 2: Login Failure with Incorrect Password
+### Scenario 2: Login Failure with Incorrect Password
 *   **Steps:**
     1. Navigate to the LinkedIn login page.
     2. Enter a valid email address.
@@ -23,55 +37,67 @@ This project demonstrates my practical skills in Manual QA, focusing on test sce
 *   **Expected Result:** An error message appears stating "Wrong password" or "Invalid credentials", and the user remains on the login page.
 *   **Status:** ✅ PASSED
 
-### ⚠️ Scenario 3: Login Failure with Empty Fields
+### Scenario 3: Login Failure with Empty Fields
 *   **Steps:**
     1. Navigate to the LinkedIn login page.
     2. Leave both "Email" and "Password" fields blank.
     3. Click the "Sign in" button.
 *   **Expected Result:** Inline validation errors appear alerting the user that the fields are required.
-*   **Status:** ❌ FAILED (Example Bug)
+*   **Status:** ❌ FAILED *(See Bug Report methodology applied below)*
 
+---
 
-### 📋 Projeto 2: Testes de Automação / Manuais (Login)
+## 🔐 Project 2: Comprehensive Authentication Test Suite
 
-| ID | Cenário de Teste | Passos para Executar | Resultado Esperado | Status |
+A complete verification matrix mapped out using standard QA test case structuring.
+
+| ID | Test Scenario | Execution Steps | Expected Result | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **TC-001** | Login com credenciais válidas | Introduzir e-mail e password corretos. Clicar em Entrar. | O utilizador entra na dashboard com sucesso. | **Pass** |
-| **TC-002** | Login com password errada | Introduzir e-mail correto e password errada. Clicar em Entrar. | Mensagem de erro: "Password incorreta". O login é bloqueado. | **Pass** |
-| **TC-003** | Login com campos vazios | Deixar e-mail e password em branco. Clicar em Entrar. | Mensagem de erro a pedir para preencher os campos obrigatórios. | **Pass** |
-| **TC-004** | Login com formato de e-mail inválido | Escrever "utilizador123" (sem @) e password. Clicar em Entrar. | O sistema avisa que o e-mail não é válido antes de enviar o formulário. | **Pass** |
-| **TC-005** | Recuperação de password | Clicar em "Esqueci-me da password", inserir e-mail válido. | Envio de e-mail com link de redefinição com sucesso. | **Pass** |
+| **TC-001** | Login with valid credentials | Input correct email and password. Click "Login". | User successfully enters the dashboard area. | **Pass** |
+| **TC-002** | Login with incorrect password | Input correct email and wrong password. Click "Login". | Error message: "Incorrect password". Login blocked. | **Pass** |
+| **TC-003** | Login with empty fields | Leave email and password blank. Click "Login". | Validation message requesting required fields. | **Pass** |
+| **TC-004** | Invalid email format entry | Type "user123" (missing @) and password. Click "Login". | System blocks submission, warning of invalid email format. | **Pass** |
+| **TC-005** | Password recovery flow | Click "Forgot password", enter a valid email address. | Reset link email sent successfully to the user's inbox. | **Pass** |
 
+---
 
+## 🛒 Project 3: E-commerce Shopping Cart Suite
 
-### 🛒 Projeto 3: Testes de Carrinho de Compras (E-commerce)
+Functional validation of an e-commerce checkout flow, tracking state management and edge cases.
 
-| ID | Cenário de Teste | Passos para Executar | Resultado Esperado | Status |
+| ID | Test Scenario | Execution Steps | Expected Result | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **TC-006** | Adicionar produto ao carrinho | Clicar num produto e carregar no botão "Adicionar ao Carrinho". | O produto é adicionado e o contador do carrinho muda de 0 para 1. | **Pass** |
-| **TC-007** | Alterar quantidade do produto | Entrar no carrinho e alterar a quantidade de 1 para 2 unidades. | O preço total do carrinho duplica e atualiza automaticamente. | **Pass** |
-| **TC-008** | Remover produto do carrinho | Clicar no botão "Remover" ou no ícone do caixote do lixo. | O produto desaparece e mostra a mensagem "O seu carrinho está vazio". | **Pass** |
-| **TC-009** | Limite de stock | Tentar adicionar 99 unidades de um produto com apenas 5 em stock. | O sistema mostra o aviso: "Não é possível adicionar por falta de stock". | **Pass** |
+| **TC-006** | Add product to cart | Click on a product and press the "Add to Cart" button. | Item is added; cart badge counter increments from 0 to 1. | **Pass** |
+| **TC-007** | Modify item quantity | Access the cart and change item quantity from 1 to 2 units. | Total price doubles and updates dynamically. | **Pass** |
+| **TC-008** | Remove product from cart | Click the "Remove" button or the trash icon on the item. | Product disappears; screen displays "Your cart is empty". | **Pass** |
+| **TC-009** | Stock limit enforcement | Try adding 99 units of a product that only has 5 in stock. | System blocks action, displaying "Out of stock / Limited limit". | **Pass** |
 
+### 🪲 Associated Bug Report (Defect Documentation)
 
-### 🪲 Projeto 3: Relatório de Bug (Bug Report)
+During the execution of the E-commerce suite, a critical functional defect was found in the discount processing microservice.
 
-**ID:** BUG-001  
-**Título:** Cupão de desconto válido "DESC20" não atualiza o preço total no carrinho de compras  
-**Severidade:** Alta (Impede a conversão de vendas com desconto)  
-**Ambiente:** Google Chrome (v122.0) / macOS Sonoma  
+*   **Bug ID:** BUG-001
+*   **Title:** Valid discount coupon "DESC20" does not update the total price in the shopping cart
+*   **Severity:** High *(Prevents revenue/conversion scaling via marketing campaigns)*
+*   **Environment:** Google Chrome (v122.0) / macOS Sonoma
 
-#### 📋 Passos para Reproduzir o Erro:
-1. Aceder à página do produto "Livro de QA Manual".
-2. Clicar no botão **"Adicionar ao Carrinho"**.
-3. Ir para a página do Carrinho de Compras.
-4. No campo "Cupão de Desconto", introduzir o código **"DESC20"** (Cupão válido de 20%).
-5. Clicar no botão **"Aplicar"**.
+#### 📋 Steps to Reproduce:
+1. Navigate to the "Manual QA Book" product page.
+2. Click the **"Add to Cart"** button.
+3. Proceed to the Shopping Cart checkout page.
+4. Locate the "Coupon Code" field and type **"DESC20"** (A valid 20% off coupon).
+5. Click the **"Apply"** button.
 
-#### 🎯 Resultados:
-* **Resultado Esperado:** O sistema deve validar o cupão, mostrar a mensagem "Cupão aplicado com sucesso" e subtrair 20% ao valor total.
-* **Resultado Atual (O Erro):** O sistema mostra a mensagem "Cupão aplicado com sucesso", mas o preço total do carrinho **continua exatamente o mesmo**, sem qualquer desconto aplicado.
+#### 🎯 Results Logged:
+*   **Expected Result:** The system should validate the coupon, display "Coupon applied successfully", and subtract 20% from the order's final total price.
+*   **Actual Result (The Bug):** The system displays the green message "Coupon applied successfully", but the checkout final price **remains exactly the same (€25.00)**, executing no discount deduction.
 
-#### 📸 Anexos:
-*(Evidência visual: [Screenshot_Bug_001.png] - O preço total mantém-se em 25.00€ após aplicar o cupão)*
+#### 📸 Evidence / Attachments:
+*   `[Screenshot_Bug_001.png]` — *Visual proof showing the success toast active but the price state unchanged.*
 
+---
+
+## 🛠️ Skills & Tooling Demonstrated
+*   **QA Methodologies:** Black Box Testing, Boundary Value Analysis, Equivalence Partitioning, Regression Testing.
+*   **Documentation:** Test Cases, Defect Lifecycle Tracking, Technical Writing.
+*   **Soft Skills:** Analytical thinking, root-cause investigation, cross-functional articulation.

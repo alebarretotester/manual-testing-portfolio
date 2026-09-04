@@ -98,6 +98,40 @@ Functional validation of an e-commerce checkout flow, tracking state management 
 
 ---
 
+## 🕵️‍♀️ Project 4: Exploratory Testing & Defect Hunting (SauceDemo)
+
+This project showcases a hands-on **Exploratory Testing Session** executed on the standard QA practice platform *SauceDemo*, utilizing the injected `problem_user` environment to identify and document hidden functional and visual critical defects.
+
+### 🪲 Defect Log: Real Bugs Discovered
+
+#### Bug ID: BUG-002 | Broken Asset Mapping in Product Catalog
+*   **Title:** Product catalog displays identical broken dog placeholder image for all merchandise items
+*   **Severity:** Medium (Visual/UI Integrity issue)
+*   **Steps to Reproduce:**
+    1. Navigate to `https://saucedemo.com`.
+    2. Log in using `problem_user` and password `secret_sauce`.
+    3. Observe the Inventory Product Catalog.
+*   **Actual Result:** Every item (backpack, bike light, shirt) dynamically renders the exact same dog placeholder image asset instead of its unique specific product photo.
+
+#### Bug ID: BUG-003 | Hard Block on Checkout Data Input (Form Validation Failure)
+*   **Title:** "Last Name" input field is entirely disabled, blocking the user checkout conversion funnel
+*   **Severity:** High / Critical (Core functional block)
+*   **Steps to Reproduce:**
+    1. Log in as `problem_user`, add any available item to the cart, and proceed to the Checkout screen.
+    2. Attempt to input text inside the "Last Name" field.
+*   **Actual Result:** The "Last Name" text input box is completely locked/disabled. The user cannot fill the field, triggering a hard block that makes it impossible to click "Continue" or complete any order placement.
+
+#### Bug ID: BUG-004 | Dead Link Redirection on Navigation Menu
+*   **Title:** "About" sidebar navigation link triggers an invalid URL redirection
+*   **Severity:** Medium (Navigation break)
+*   **Steps to Reproduce:**
+    1. Click the hamburger menu icon (three lines) on the top left corner.
+    2. Click the "About" navigation option.
+*   **Actual Result:** The application redirects to a broken external link path instead of the official platform resource dashboard landing page.
+
+
+---
+
 ## 📚 📖 My Learning Journey & Knowledge Base
 
 In this section, I document the theoretical foundations, terminology, and testing mindsets I am actively mastering during my self-taught path.

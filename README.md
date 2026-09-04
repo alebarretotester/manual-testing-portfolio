@@ -74,11 +74,9 @@ Functional validation of an e-commerce checkout flow, tracking state management 
 
 ### 🪲 Associated Bug Report (Defect Documentation)
 
-During the execution of the E-commerce suite, a critical functional defect was found in the discount processing microservice.
-
 *   **Bug ID:** BUG-001
 *   **Title:** Valid discount coupon "DESC20" does not update the total price in the shopping cart
-*   **Severity:** High *(Prevents revenue/conversion scaling via marketing campaigns)*
+*   **Severity:** High
 *   **Environment:** Google Chrome (v122.0) / macOS Sonoma
 
 #### 📋 Steps to Reproduce:
@@ -92,14 +90,17 @@ During the execution of the E-commerce suite, a critical functional defect was f
 *   **Expected Result:** The system should validate the coupon, display "Coupon applied successfully", and subtract 20% from the order's final total price.
 *   **Actual Result (The Bug):** The system displays the green message "Coupon applied successfully", but the checkout final price **remains exactly the same (€25.00)**, executing no discount deduction.
 
-#### 📸 Evidence / Attachments:
-*   `[Screenshot_Bug_001.png]` — *Visual proof showing the success toast active but the price state unchanged.*
+---
 
 ## 🛠️ Skills & Tooling Demonstrated
 *   **QA Methodologies:** Black Box Testing, Boundary Value Analysis, Equivalence Partitioning, Regression Testing.
 *   **Documentation:** Test Cases, Defect Lifecycle Tracking, Technical Writing.
-*   **Soft Skills:** Analytical thinking, root-cause investigation, cross-functional articulation.
 
+---
 
-- [📚 Technical Study Guide](./study-guide.md)
+## 📚 📖 My Learning Journey & Knowledge Base
 
+In this section, I document the theoretical foundations, terminology, and testing mindsets I am actively mastering during my self-taught path.
+
+👉 **[Access my Technical Study Guide](./study-guide.md)**  
+*Click the link above to view notes, detailed methodologies, pros/cons of exploratory testing, and real-world testing analogies (such as the Safety Elevator and the Car Mechanic analogies).*

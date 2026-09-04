@@ -95,13 +95,11 @@ During the execution of the E-commerce suite, a critical functional defect was f
 #### 📸 Evidence / Attachments:
 *   `[Screenshot_Bug_001.png]` — *Visual proof showing the success toast active but the price state unchanged.*
 
-
-- [📚 Technical Study Guide](./study-guide.md)
-
-
----
-
 ## 🛠️ Skills & Tooling Demonstrated
 *   **QA Methodologies:** Black Box Testing, Boundary Value Analysis, Equivalence Partitioning, Regression Testing.
 *   **Documentation:** Test Cases, Defect Lifecycle Tracking, Technical Writing.
 *   **Soft Skills:** Analytical thinking, root-cause investigation, cross-functional articulation.
+
+
+- [📚 Technical Study Guide](./study-guide.md)
+

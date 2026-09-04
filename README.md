@@ -95,6 +95,10 @@ During the execution of the E-commerce suite, a critical functional defect was f
 #### 📸 Evidence / Attachments:
 *   `[Screenshot_Bug_001.png]` — *Visual proof showing the success toast active but the price state unchanged.*
 
+
+- [📚 Technical Study Guide](./study-guide.md)
+
+
 ---
 
 ## 🛠️ Skills & Tooling Demonstrated

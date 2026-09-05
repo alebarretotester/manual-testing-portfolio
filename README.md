@@ -161,6 +161,11 @@ This project demonstrates the ability to isolate and document high-severity func
 
 
 
+👉 **[Aceder ao meu Roadmap de Estudos](./ROADMAP.md)**
+
+
+
+
 ---
 
 ## 📚 📖 My Learning Journey & Knowledge Base

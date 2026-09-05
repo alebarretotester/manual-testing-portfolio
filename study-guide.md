@@ -101,5 +101,31 @@ Before handing you back the keys, the mechanic does not just test the AC. They a
 
 **Regression testing is exactly that:** Checking parts of the site that *already worked perfectly* in the past, just to make sure the developer's new code fixes didn't break old features.
 
+
+## 📑 Module: Software Testing Documentation (New)
+
+A documentação é a espinha dorsal do teste manual. Testar sem documentar é apenas "mexer na aplicação". É ela que garante a rastreabilidade do sistema e ensina os programadores a corrigir as falhas rapidamente.
+
+### 🧩 The 3 Pillars of QA Documentation
+1. **Test Plan (Plano de Testes):** O mapa estratégico do projeto. Responde a: *O que vamos testar? Como? Com que ferramentas?*
+2. **Test Cases (Casos de Teste):** O guião passo a passo. Contém as ações exatas que o QA deve fazer e o resultado esperado pelo sistema.
+3. **Bug Report (Relatório de Erros):** A prova do crime. Um documento técnico que ensina o programador a ver e a reproduzir a falha encontrada.
+
+### 🔍 Anatomy of a Perfect Bug Report
+Para que um bug seja resolvido sem perda de tempo, ele deve seguir uma estrutura rigorosa:
+* **ID & Title:** Claro e com a localização do erro (ex: `[Cart] Valid coupon does not apply discount`).
+* **Environment:** Onde aconteceu (ex: Chrome v122 / macOS). Muitos bugs só ocorrem em sistemas específicos!
+* **Steps to Reproduce:** O caminho exato. Se o programador não conseguir repetir os teus passos, o bug é rejeitado.
+* **Severity vs. Priority:** *Severidade* é o impacto técnico (bloqueia o site ou é só visual?). *Prioridade* é a urgência do negócio (corrigir hoje ou depois?).
+* **Actual vs. Expected Result:** O contraste direto entre o comportamento errado do sistema e o comportamento correto que era esperado.
+
+### 🚗 The QA Analogy: The Assembly Line Inspector
+Para complementar as analogias do Elevador e do Mecânico, a documentação em QA funciona como o **Inspetor numa Linha de Produção de Automóveis**:
+* O programador constrói as peças e monta o carro baseado nas plantas técnicas.
+* O QA não adivinha se o carro está bom; ele pega numa **lista de verificação oficial** (os *Test Cases*) e valida item por item (ex: *O travão responde em X segundos?*).
+* Se o travão falhar, o QA não diz apenas *"o carro está estragado"*. Ele documenta os passos: *"Ao pressionar o pedal a 50km/h (Passo), o carro demora 30 metros a parar (Resultado Atual). Espera-se que pare em 10 metros (Resultado Esperado)"*. 
+* **Sem essa folha de testes e o relatório detalhado, a fábrica continua a produzir carros com defeito porque ninguém sabe exatamente onde está a falha ou como a corrigir.**
+
+
 ---
 *💡 Study Guide compiled and updated continuously as my QA engineering journey progresses.*

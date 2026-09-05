@@ -169,3 +169,5 @@ In this section, I document the theoretical foundations, terminology, and testin
 
 👉 **[Access my Technical Study Guide](./study-guide.md)**  
 *Click the link above to view notes, detailed methodologies, pros/cons of exploratory testing, and real-world testing analogies (such as the Safety Elevator and the Car Mechanic analogies).*
+
+

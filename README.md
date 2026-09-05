@@ -132,6 +132,37 @@ This project showcases a hands-on **Exploratory Testing Session** executed on th
 
 ---
 
+## 💻 Project 5: Mini-Suite & Critical Bug Documentation (Edge Cases)
+
+This project demonstrates the ability to isolate and document high-severity functional failures that entirely block the user experience.
+
+### Test Matrix
+
+| ID | Test Scenario | Execution Steps | Expected Result | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **TC-010** | Login stability under stress / validation | Input valid email and password. Click "Login". Refresh and retry. | User enters the dashboard successfully without system lag. | ❌ **Fail** *(See BUG-005)* |
+
+### 🪲 Associated Bug Report (System Freeze)
+
+*   **Bug ID:** BUG-005
+*   **Title:** System freezes on a blank page after submitting valid user credentials
+*   **Severity:** Critical (Core functional block / Total loss of access)
+*   **Environment:** Google Chrome (v122.0) / Windows 11 & macOS Sonoma
+
+#### 📋 Steps to Reproduce:
+1. Navigate to the application login page.
+2. Enter a valid, registered email address and the correct password.
+3. Click the **"Login"** button.
+4. Refresh the browser page and attempt the exact same action a second time.
+
+#### 🎯 Results Logged:
+*   **Expected Result:** The system should successfully authenticate the user on both attempts and redirect them immediately to the main dashboard landing page.
+*   **Actual Result (The Bug):** The button registers the click, but the application freezes completely, displaying a blank white screen. The user cannot access any part of the site, and the issue persists even after manual page refreshes.
+
+
+
+---
+
 ## 📚 📖 My Learning Journey & Knowledge Base
 
 In this section, I document the theoretical foundations, terminology, and testing mindsets I am actively mastering during my self-taught path.

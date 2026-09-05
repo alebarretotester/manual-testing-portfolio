@@ -6,11 +6,18 @@ With a professional background in **Content Moderation at Accenture**, I apply a
 
 ---
 
+---
+
 ## 📌 Project Overview
 This repository contains end-to-end manual testing artifacts for high-traffic web applications, split into three core modules:
-1. **LinkedIn Login Page Automation & Manual Scenarios**
-2. **Standard Web Authentication Suite (Login & Security)**
-3. **E-commerce Shopping Cart & Promotion Engine (Features & Real Bug Reports)**
+1. LinkedIn Login Page Automation & Manual Scenarios
+2. Standard Web Authentication Suite (Login & Security)
+3. E-commerce Shopping Cart & Promotion Engine (Features & Real Bug Reports)
+
+🚀 **[Aceder ao meu Roadmap de Estudos & Cronograma](./ROADMAP.md)**
+
+---
+
 
 ---
 
@@ -162,23 +169,7 @@ This project demonstrates the ability to isolate and document high-severity func
 
 
 
----
-
-## 📌 Project Overview
-This repository contains end-to-end manual testing artifacts for high-traffic web applications, split into three core modules:
-1. LinkedIn Login Page Automation & Manual Scenarios
-2. Standard Web Authentication Suite (Login & Security)
-3. E-commerce Shopping Cart & Promotion Engine (Features & Real Bug Reports)
-
-🚀 **[Aceder ao meu Roadmap de Estudos & Cronograma](./ROADMAP.md)**
-
----
-
-
-
-
-
----
+-
 
 ## 📚 📖 My Learning Journey & Knowledge Base
 

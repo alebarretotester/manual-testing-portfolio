@@ -179,3 +179,9 @@ In this section, I document the theoretical foundations, terminology, and testin
 *Click the link above to view notes, detailed methodologies, pros/cons of exploratory testing, and real-world testing analogies (such as the Safety Elevator and the Car Mechanic analogies).*
 
 
+## 🤖 Exercícios Especiais (AI Testing)
+Para além do QA tradicional, aplico técnicas de teste e avaliação de qualidade em Inteligência Artificial:
+*   [Exercício Prático: Avaliação e Teste de Segurança em IA](ai-testing-exercise.md) — Um caso de estudo prático focado em segurança, moderação e validação de dados (IDVaaS) aplicados a modelos LLM.
+
+
+

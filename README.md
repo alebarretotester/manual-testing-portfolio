@@ -183,5 +183,30 @@ In this section, I document the theoretical foundations, terminology, and testin
 Para além do QA tradicional, aplico técnicas de teste e avaliação de qualidade em Inteligência Artificial:
 *   [Exercício Prático: Avaliação e Teste de Segurança em IA](ai-testing-exercise.md) — Um caso de estudo prático focado em segurança, moderação e validação de dados (IDVaaS) aplicados a modelos LLM.
 
+# Cover Letter - Ale Barreto
+
+**Subject:** Application for Open Positions  
+**Contact:** [LinkedIn](https://linkedin.com)
+
+---
+
+Dear Hiring Team,
+
+I am writing to express my strong interest in exploring career opportunities within your organization. With a solid professional background built at **Accenture**, where I specialized in Content Moderation and Identity Verification, I have developed advanced analytical skills, a sharp eye for detail, and a strong commitment to quality.
+
+Throughout my career, I have proven my ability to adapt quickly to new tools, guidelines, and fast-paced environments. I am highly experienced in managing high-volume data, evaluating complex information with accuracy, and working efficiently under strict KPIs and performance metrics. 
+
+As a professional fluent in both **Portuguese** and **English**, I pride myself on my strong communication skills, resilience, and critical thinking. I am naturally driven by a structured mindset focused on problem-solving, continuous learning, and ensuring operational excellence in everything I do.
+
+I am confident that my background, combined with my dedication to delivering high-quality results, will allow me to bring immediate value to your team. Thank you for your time and consideration, and I look forward to the possibility of discussing how my skills align with your needs.
+
+Sincerely,  
+
+**Ale Barreto**  
+[LinkedIn Profile](https://linkedin.com)
+
+
+
+
 
 

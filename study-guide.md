@@ -135,27 +135,31 @@ Para complementar as analogias do Elevador e do Mecânico, a documentação em Q
 
 ---
 
+
+---
+
 ## 🤖 Roteiro de IA, Engenharia de Prompts e Lógica (AI Evaluation)
 *Focado em aprender a lógica dos modelos de linguagem para atuar como AI Evaluator.*
 
 - [ ] **ChatGPT Prompt Engineering for Developers**
   - **Instituição:** DeepLearning.AI / OpenAI (1 hora)
   - **Status:** ⏳ *Em progresso (focando apenas na lógica do texto, ignorando o código).*
-  - **Link:** [Acessar ao Curso](https://deeplearning.ai)
+  - **Link:** [Aceder ao Curso na DeepLearning.AI](https://deeplearning.ai)
 
 - [ ] **Google AI Essentials**
   - **Instituição:** Coursera / Google (~9 horas)
-  - **Link:** [Acessar ao Curso](https://coursera.org)
+  - **Link:** [Aceder ao Curso na Coursera](https://www.coursera.org/learn/ai-essentials1)
 
 - [ ] **Generative AI for Everyone**
   - **Instituição:** DeepLearning.AI (~6 horas)
-  - **Link:** [Acessar ao Curso](https://deeplearning.ai)
+  - **Link:** [Aceder ao Curso na Coursera](https://www.coursera.org/learn/generative-ai-for-everyone)
 
 - [ ] **Introduction to Generative AI**
   - **Instituição:** Google Cloud (1 hora)
-  - **Link:** [Acessar ao Curso](https://cloudskillsboost.google)
+  - **Link:** [Aceder ao Curso na Google Skills](https://www.skills.google/course_templates/536)
 
 - [ ] **Career Essentials in Generative AI**
   - **Instituição:** Microsoft / LinkedIn Learning (~4 horas)
-  - **Link:** [Acessar ao LinkedIn Learning](https://linkedin.com)
+  - **Link:** [Aceder ao LinkedIn Learning](https://linkedin.com)
+
 

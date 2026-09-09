@@ -15,5 +15,6 @@ Com base na minha experiência na **Accenture** em Moderação de Conteúdo e Ve
 - [ ] Fundamentos de QA Manual (Projetos em [alebarretotester/manual-testing-portfolio](https://github.com))
 
 ---
-*Contacto: [O teu Link do LinkedIn]*
+Contacto: [LinkedIn](https://www.linkedin.com/in/alessandra-barreto-46458513b/)
+
 

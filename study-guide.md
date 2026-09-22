@@ -106,25 +106,58 @@ Before handing you back the keys, the mechanic does not just test the AC. They a
 
 A documentação é a espinha dorsal do teste manual. Testar sem documentar é apenas "mexer na aplicação". É ela que garante a rastreabilidade do sistema e ensina os programadores a corrigir as falhas rapidamente.
 
+## 📑 Module: Software Testing Documentation
+
+Documentation is the backbone of manual testing. Testing without documenting is just "playing around with the application." Documentation ensures system traceability and guides developers to fix defects rapidly, following global software engineering standards (ISTQB / CTFL).
+
 ### 🧩 The 3 Pillars of QA Documentation
-1. **Test Plan (Plano de Testes):** O mapa estratégico do projeto. Responde a: *O que vamos testar? Como? Com que ferramentas?*
-2. **Test Cases (Casos de Teste):** O guião passo a passo. Contém as ações exatas que o QA deve fazer e o resultado esperado pelo sistema.
-3. **Bug Report (Relatório de Erros):** A prova do crime. Um documento técnico que ensina o programador a ver e a reproduzir a falha encontrada.
+1. **Test Plan:** The project's strategic roadmap. It answers: *What are we testing? How? Which tools will be used?*
+2. **Test Cases:** The step-by-step script. It contains the exact actions the QA must perform and the system's expected behavior.
+3. **Bug Report:** The evidence of the defect. A technical document that teaches the developer how to see and reproduce the identified failure.
+
+### 📝 Anatomy of a Perfect Test Case
+Writing a Test Case means structuring a clear logic to answer three basic questions: *Where am I? What am I doing? What should happen?* According to industry standards, every Test Case must strictly contain **4 fundamental elements**:
+
+* **ID & Title:** A unique identifier and a clear title focused on the feature (e.g., `TC001 - Verify media playback button`).
+* **Pre-conditions:** The initial state the system and the user must be in before starting the test (e.g., `User logged in with an active subscription plan`).
+* **Steps to Reproduce:** The exact sequence of clicks, inputs, and interactions the tester must execute within the software.
+* **Expected Result:** The correct behavior the system *should* present if it is defect-free.
+
+#### 💡 Practical Examples in Dynamic Markets (Beyond the Banking Sector)
+
+* **🎮 Gaming Industry (Game QA):**
+  * **ID/Title:** `TC-GAME-01 - Vehicle collision against static obstacles`.
+  * **Pre-condition:** Player driving a sports vehicle at maximum speed on a straight road with no intermediate barriers.
+  * **Steps:** 1. Accelerate the vehicle to maximum speed. 2. Crash head-on into an indestructible concrete wall.
+  * **Expected Result:** The vehicle must stop instantly, trigger the impact animation, deform the front chassis, and reduce the car's health points (HP). The object must not clip through the wall or fall out of the map boundaries.
+
+* **🍿 Streaming & Social Media:**
+  * **ID/Title:** `TC-STRM-02 - Functionality of the Skip Intro button`.
+  * **Pre-condition:** Mobile application open, playing the first episode of a series that contains a 30-second introduction.
+  * **Steps:** 1. Wait for the series intro to start. 2. Verify if the "Skip Intro" button appears on the screen. 3. Click the button.
+  * **Expected Result:** The video player must instantly skip to the exact second where the episode storyline begins (e.g., 00:31), keeping audio, video, and subtitles perfectly synchronized.
+
+* **🛫 Tourism, Travel & Experiences:**
+  * **ID/Title:** `TC-TRAV-03 - Dynamic price updates on the interactive map`.
+  * **Pre-condition:** App open on the accommodation search results page with the interactive map filter enabled.
+  * **Steps:** 1. Drag the map to an adjacent neighborhood using the cursor or swipe gesture. 2. Wait for the new location pins to load.
+  * **Expected Result:** The system must dynamically update the displayed rates and pins, rendering only the accommodations that belong to the newly visible area of the map.
 
 ### 🔍 Anatomy of a Perfect Bug Report
-Para que um bug seja resolvido sem perda de tempo, ele deve seguir uma estrutura rigorosa:
-* **ID & Title:** Claro e com a localização do erro (ex: `[Cart] Valid coupon does not apply discount`).
-* **Environment:** Onde aconteceu (ex: Chrome v122 / macOS). Muitos bugs só ocorrem em sistemas específicos!
-* **Steps to Reproduce:** O caminho exato. Se o programador não conseguir repetir os teus passos, o bug é rejeitado.
-* **Severity vs. Priority:** *Severidade* é o impacto técnico (bloqueia o site ou é só visual?). *Prioridade* é a urgência do negócio (corrigir hoje ou depois?).
-* **Actual vs. Expected Result:** O contraste direto entre o comportamento errado do sistema e o comportamento correto que era esperado.
+For a bug to be resolved without wasting development time, it must follow a rigorous structure:
+* **ID & Title:** Clear, concise, and specifying the error location (e.g., `[Cart] Valid coupon does not apply discount`).
+* **Environment:** Where it happened (e.g., Chrome v122 / macOS). Many bugs only occur in specific environments!
+* **Steps to Reproduce:** The exact path. If the developer cannot replicate your steps, the bug will be rejected as "Cannot Reproduce".
+* **Severity vs. Priority:** *Severity* is the technical impact (Does it block the site or is it just visual?). *Priority* is the business urgency (Fix it today or later?).
+* **Actual vs. Expected Result:** The direct contrast between the flawed system behavior (what actually happened) and the correct behavior that was expected.
 
 ### 🚗 The QA Analogy: The Assembly Line Inspector
-Para complementar as analogias do Elevador e do Mecânico, a documentação em QA funciona como o **Inspetor numa Linha de Produção de Automóveis**:
-* O programador constrói as peças e monta o carro baseado nas plantas técnicas.
-* O QA não adivinha se o carro está bom; ele pega numa **lista de verificação oficial** (os *Test Cases*) e valida item por item (ex: *O travão responde em X segundos?*).
-* Se o travão falhar, o QA não diz apenas *"o carro está estragado"*. Ele documenta os passos: *"Ao pressionar o pedal a 50km/h (Passo), o carro demora 30 metros a parar (Resultado Atual). Espera-se que pare em 10 metros (Resultado Esperado)"*. 
-* **Sem essa folha de testes e o relatório detalhado, a fábrica continua a produzir carros com defeito porque ninguém sabe exatamente onde está a falha ou como a corrigir.**
+To complement the Elevator and the Car Mechanic analogies, QA documentation operates like an **Inspector on an Automotive Assembly Line**:
+* The developer builds the components and assembles the car based on technical blueprints.
+* The QA does not guess if the car is functional; they pull up an **official checklist** (the *Test Cases*) and validate item by item (e.g., *Does the brake respond within X seconds?*).
+* If the brake fails, the QA does not simply say *"the car is broken"*. They document the steps: *"When pressing the pedal at 50km/h (Step), the vehicle takes 30 meters to stop (Actual Result). It is expected to stop within 10 meters (Expected Result)."*
+* **Without this test sheet and the detailed report, the factory keeps producing defective cars because nobody knows exactly where the flaw lies or how to fix it.**
+
 
 
 ---

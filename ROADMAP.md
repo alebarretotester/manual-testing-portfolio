@@ -111,7 +111,7 @@ Estas plataformas são ideais para profissionais que desejam vender blocos de ho
 * **[Fiverr](https://fiverr.com):** Modelo de negócio focado na criação de anúncios de microsserviços ("Gigs") com preços fixos. Permite-lhe vender pacotes fechados de tarefas rápidas, como a validação de scripts de testes, execução de Casos de Teste ou auditorias linguísticas de IA.
 * **[Working Nomads](https://workingnomads.com):** Portal de emprego 100% remoto com curadoria rigorosa e uma secção dedicada exclusivamente a vagas de Moderação de Conteúdo, Apoio Técnico e Operações Digitais de part-time em empresas globais.
 
-* 
+  
 
 
 

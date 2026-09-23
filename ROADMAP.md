@@ -29,11 +29,14 @@ Este cronograma é o meu guia definitivo de estudos (30 min/dia). Ele foi desenh
 ## 🎓 ETAPA 3: Especialização Técnicas de Teste & CTFL (A "Chancela")
 *Com a prática já internalizada, o restante do Syllabus fará muito mais sentido. Hora de focar em passar no exame.*
 
+- [ ] **Download Oficial:** Baixar os materiais gratuitos da versão atualizada (Syllabus 4.0):
+  * 🇧🇷 Se for fazer a prova no Brasil: [Download no site do BSTQB](https://bstqb.online) (Vá à secção de Downloads -> Exames de Certificação).
+  * 🇵🇹 Se for fazer a prova em Portugal: [Download no site da PSTQB](https://pstqb.pt) (Vá à secção de Certificações -> CTFL).
 - [ ] **Teoria (Syllabus Cap. 4):** Dominar técnicas de Caixa-Negra: **Partição de Equivalência** e **Análise de Valor Limite** (assunto que mais reprova se não souber aplicar).
 - [ ] **Teoria (Syllabus Cap. 4):** Entender a diferença entre Testes Funcionais (o que o sistema faz) vs. Não Funcionais (usabilidade, performance, segurança).
 - [ ] **Teoria (Syllabus Cap. 3):** Aprender sobre Teste Estático (Revisões e Inspeções de código/requisitos antes de rodar o software).
-- [ ] **Prática de Exame:** Fazer os simulados oficiais do **ISTQB/BSTQB/PSTQB**. 
-- [ ] **Meta de Aprovação:** Só agendar o exame real quando estiver a atingir mais de 80% de acertos de forma consistente nos simulados.
+- [ ] **Prática de Exame:** Fazer os simulados oficiais que estão disponíveis nos mesmos sites acima.
+- [ ] **Meta de Aprovação:** Só agendar o exame real quando estiver a atingir mais de 80% de acertos de forma consistente nos simulados em casa.
 
 ---
 

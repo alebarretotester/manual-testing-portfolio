@@ -1,49 +1,53 @@
-# 🗺️ Meu Roadmap de Estudos: QA Manual Júnior & Certificação
+# 🗺️ Meu Roadmap Linear: Da Accenture ao QA Júnior & CTFL
 
-Este ficheiro serve para acompanhar o meu progresso técnico e prático, conectando a minha experiência em operações na Accenture (IDvass/CM) com a engenharia de testes e a preparação para a minha primeira certificação oficial.
-
----
-
-## 📅 Cronograma de Aprendizagem (30 min / dia)
-
-### 🛠️ MÓDULO 1: Prática de Caça ao Bug & DevTools (F12)
-* [ ] **Teoria:** Entender User Stories e Critérios de Aceitação.
-* [ ] **Teoria:** Diferença prática entre Severidade vs. Prioridade.
-* [ ] **Prática Jira:** Criar projeto Kanban gratuito no Jira ("Portefólio de Testes").
-* [ ] **Prática DevTools:** Inspecionar a aba Network (F12) e caçar erros 404/500 em sites reais.
-* [ ] **Portefólio:** Registrar de 3 a 5 cartões de Bug no Jira.
-
-### 📄 MÓDULO 2: Documentação Avançada (Jira + Zephyr/Xray)
-* [ ] **Teoria:** Casos de Teste (Test Cases) e Cenários de Teste.
-* [ ] **Teoria:** Test Summary Report (Relatório de Sumário de Testes).
-* [ ] **Prática:** Instalar o plugin Zephyr/Xray gratuito no Jira e simular a execução de 3 Casos de Teste.
-
-### 🎓 MÓDULO 3: Foco CTFL (Certificação ISTQB) 🚀 *[Novo]*
-*O CTFL (Certified Tester Foundation Level) é o exame oficial do ISTQB. Passar nesta prova significa conquistar a certificação base internacional de QA.*
-* [ ] **Download Oficial:** Baixar o **Syllabus 4.0** (apostila oficial) e o Glossário de Termos no site do BSTQB/PSTQB.
-* [ ] **Leitura Dirigida (30 min/dia):** Ler o Syllabus capítulo por capítulo. *Nota: A prova é literal, tudo sai deste PDF!*
-* [ ] **Terminologia:** Alinhar os termos do dia a dia com os termos oficiais do ISTQB (ex: usar "Teste de Componente" em vez de "Teste Unitário").
-* [ ] **Simulados:** Realizar os simulados oficiais gratuitos apenas após concluir a leitura do Syllabus. (Meta: acertar +de 65% ou 26/40 questões).
-
-### 🌐 MÓDULO 4: Testes de API para Iniciantes (Postman)
-* [ ] **Teoria:** O que é uma API (Analogia do Empregado de Mesa).
-* [ ] **Teoria:** Métodos HTTP (GET, POST, PUT, DELETE) e Códigos de Status (200, 400, 401, 500).
-* [ ] **Prática Postman:** Criar conta e executar o primeiro teste GET (JSON) com suporte do YouTube.
-
-### 🗄️ MÓDULO 5: Bases de Dados & SQL (Caixa Cinzenta)
-* [ ] **Teoria:** O que é uma Base de Dados Relacional (Tabelas estilo Excel).
-* [ ] **Teoria:** Comandos básicos (SELECT, WHERE, INSERT, UPDATE).
-* [ ] **Prática:** Fazer os exercícios interativos gratuitos no w3schools ou SQLBolt.
+Este cronograma é o meu guia definitivo de estudos (30 min/dia). Ele foi desenhado para eliminar a sensação de estar perdida, focando estritamente no que importa para conseguir a primeira vaga e passar no exame **ISTQB CTFL 4.0**, utilizando materiais 100% gratuitos (Iterasys, Julio de Lima e Syllabus).
 
 ---
 
-## 💡 Regras de Ouro para a Transição de Carreira
+## 🎯 ETAPA 1: Mentalidade & Teoria Base (O "Porquê")
+*O objetivo desta etapa é aprender a pensar como uma Engenheira de QA e entender os conceitos que caem no Capítulo 1 e 2 do Syllabus.*
 
-* **O Manual vem primeiro:** Focar no Jira, DevTools e nos conceitos do Syllabus do ISTQB. Ignorar automação e código por enquanto.
-* **Mentalidade Accenture:** Usar a atenção ao detalhe da área de moderação e IDvass como ponto forte em entrevistas.
-* **Consistência:** Estudar apenas 30 minutos por dia para evitar bloqueio mental.
-* **Sem medo de errar:** O ambiente de treino é meu, posso criar e apagar o que quiser.
+- [ ] **Teoria (Syllabus Cap. 1):** Compreender a diferença real entre **Erro** (humano), **Defeito/Bug** (no código) e **Falha** (comportamento visível).
+- [ ] **Teoria (Syllabus Cap. 1):** Dominar os **7 Princípios de Teste de Software** (ex: "Os testes mostram a presença de defeitos, não a ausência").
+- [ ] **Teoria (Syllabus Cap. 2):** Entender o ciclo de vida do software (Modelos Ágeis/Scrum) e onde o QA entra em cada fase.
+- [ ] **Estudo Complementar:** Assistir às aulas de Fundamentos de Teste no canal da **Iterasys** ou **Julio de Lima** no YouTube.
 
+---
+
+## 💻 ETAPA 2: O Dia a Dia Prático do QA (O "Como")
+*Aqui eu transformo a teoria em portfólio prático, simulando o dia a dia de uma empresa real, sem focar em código.*
+
+- [ ] **Teoria:** Aprender o que são *User Stories* (Histórias de Usuário) e Critérios de Aceitação.
+- [ ] **Prática (Jira):** Criar uma conta gratuita no **Jira** e configurar um projeto Kanban simples.
+- [ ] **Prática (Casos de Teste):** Escolher um site público (ex: Login do LinkedIn) e escrever de 5 a 10 **Casos de Teste** (Cenário, Passos, Resultado Esperado).
+- [ ] **Teoria:** Entender a diferença prática entre **Severidade** (impacto técnico) vs. **Prioridade** (urgência de negócio).
+- [ ] **Prática (DevTools - F12):** Abrir o navegador, apertar F12, navegar na aba *Network* e identificar como os erros (404, 500) aparecem por trás do e-commerce.
+- [ ] **Portfólio:** Reportar de 3 a 5 bugs encontrados no formato oficial dentro do seu Jira.
+
+---
+
+## 🎓 ETAPA 3: Especialização Técnicas de Teste & CTFL (A "Chancela")
+*Com a prática já internalizada, o restante do Syllabus fará muito mais sentido. Hora de focar em passar no exame.*
+
+- [ ] **Teoria (Syllabus Cap. 4):** Dominar técnicas de Caixa-Negra: **Partição de Equivalência** e **Análise de Valor Limite** (assunto que mais reprova se não souber aplicar).
+- [ ] **Teoria (Syllabus Cap. 4):** Entender a diferença entre Testes Funcionais (o que o sistema faz) vs. Não Funcionais (usabilidade, performance, segurança).
+- [ ] **Teoria (Syllabus Cap. 3):** Aprender sobre Teste Estático (Revisões e Inspeções de código/requisitos antes de rodar o software).
+- [ ] **Prática de Exame:** Fazer os simulados oficiais do **ISTQB/BSTQB/PSTQB**. 
+- [ ] **Meta de Aprovação:** Só agendar o exame real quando estiver a atingir mais de 80% de acertos de forma consistente nos simulados.
+
+---
+
+## 🚀 ETAPA 4: Conexão de Carreira (O Meu Diferencial)
+*Preparar o terreno para entrevistas, usando o meu histórico profissional como uma arma secreta.*
+
+- [ ] **LinkedIn:** Reformular o perfil destacando as competências de **Moderação de Conteúdo e IDvass na Accenture** como pilares de qualidade: atenção extrema ao detalhe, análise crítica e seguimento rigoroso de diretrizes políticas.
+- [ ] **Portfólio:** Vincular os Casos de Teste criados na Etapa 2 ao repositório principal do GitHub para os recrutadores verem.
+
+---
+
+## 💡 Regra de Ouro do Resgate
+> **"Eu não vou estudar APIs (Postman), nem SQL (Bases de Dados), nem Automação de Testes até concluir 100% das caixas das Etapas 1 e 2."** 
+> O foco absoluto evita o bloqueio mental. 30 minutos focados por dia valem mais do que 4 horas perdida em vídeos aleatórios.
 
 
 ---

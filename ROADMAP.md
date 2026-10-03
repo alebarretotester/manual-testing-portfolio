@@ -7,7 +7,7 @@ Este cronograma é o meu guia definitivo de estudos (30 min/dia). Ele foi desenh
 ## 🎯 ETAPA 1: Mentalidade & Teoria Base (O "Porquê")
 *O objetivo desta etapa é aprender a pensar como uma Engenheira de QA e entender os conceitos que caem no Capítulo 1 e 2 do Syllabus.*
 
-- [ ] **Teoria (Syllabus Cap. 1):** Compreender a diferença real entre **Erro** (humano), **Defeito/Bug** (no código) e **Falha** (comportamento visível).
+- [X] **Teoria (Syllabus Cap. 1):** Compreender a diferença real entre **Erro** (humano), **Defeito/Bug** (no código) e **Falha** (comportamento visível).
 - [ ] **Teoria (Syllabus Cap. 1):** Dominar os **7 Princípios de Teste de Software** (ex: "Os testes mostram a presença de defeitos, não a ausência").
 - [ ] **Teoria (Syllabus Cap. 2):** Entender o ciclo de vida do software (Modelos Ágeis/Scrum) e onde o QA entra em cada fase.
 - [ ] **Estudo Complementar:** Assistir às aulas de Fundamentos de Teste no canal da **Iterasys** ou **Julio de Lima** no YouTube.
